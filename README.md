@@ -52,17 +52,18 @@ Here are some interestng information that may need some further analysis to full
 
 ## PH Analysis Summary
 
-As noted above in the analysis that has been completed, a closer look should be taken at year by year look at retirement elibility as the numbers of those who may retire in the next few years is quite staggering:
+As noted above in the analysis that has been completed, a closer look should be taken at retirement elibility as the numbers of those who may retire in the next few years is quite staggering:
 
 Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
 Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
 
 1) Bobby knows there is an underlying question: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-To answer this, Bobby refactored the SQL he used for the 1965 group and came up with this number of employees who will be elible for retirement:
+To answer this, Bobby refactored the SQL he used for the 1965 group and changed the range from January 1st of 1952 through December 31st of 1955, and came up with this number of employees who will be elible for retirement:
 
+![Pewlett_Hackard_Analysis](./ret_silver.png)
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+2) Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 
 
