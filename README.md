@@ -1,21 +1,7 @@
 # Pewlett_Hackard_Analysis
 
-
-
-
-The purpose of the new analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-Summary:
-
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
-
-Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your 
-analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
-
 ## Pewlett Hackard Analysis Overview
-PewLett Hackard has been woring with Bobby in conducting an over-view of their retiring employees or to be more exact, those who are eligible for retirment. To that end, 3 csv files were created that showed from some originally provided data of ALL employees and the following tables were created for the first part of the analysis:
+PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
 
 - current_emp.csv which showed ALL current employees elibible for retirement
 - emp_info.csv which included information about those employees salaries
@@ -28,13 +14,14 @@ Because Bobby impressed the PH senior management with the 3 original output file
 - A query was written that contains the employee number, first and last name, and most recent title: unique_titles.csv.
 - A query was written to create a table with the number of titles filled by employees who are retiring: retiring_titles.csv. 
 
-2) The second request was for a more targeted program: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. For this, the data was more targeted; those employees who were born in 1965, a few years away from the eligibility age. PH would like to capitalize on this group's knowledge base and use it to crate a training or mentorship program. This will also help PH keep a closer eye on those employees whose retirement is approaching.  Bobby created one output file for this second piece:
+2) The second request was for a more targeted program: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. For this, the data was based on the following; those employees who were born in 1965, a few years away from the eligibility age. PH would like to capitalize on this group's knowledge base and use it to crate a training or mentorship program. This will also help PH keep a closer eye on those employees whose retirement is approaching.  Bobby created one output file for this second piece:
 
 - mentorship_eligibilty.csv
 
 ## PH Analysis Results:
-Here are some interestng information that may need some further analysis to fully understand:
-1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
+There was interestng information that was gathered that may need some further analysis to fully understand:
+
+1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company as retirement approaches or is reached.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
 
 ![Pewlett_Hackard_Analysis](./ret_titles.png)
 ![Pewlett_Hackard_Analysis](./employee_count.png)
@@ -43,7 +30,7 @@ Here are some interestng information that may need some further analysis to full
 
 ![Pewlett_Hackard_Analysis](./actual_ret.png)
 
-3) In looking at the unique_titles file, it is easy to note that many of the employees have risen among the ranks. Some have gone up two or more levels of employment. It would be interesting to see how employees in the past were able to be promoted and perhaps something more could be learned about this process.
+3) In looking at the unique_titles file, it is easy to note that many of the employees have risen among the ranks. Some have gone up two or more levels of employment. It would be interesting to see how employees in the past were able to be promoted and perhaps something more could be learned about this process to entice the younger employees to continue at HP. 
 
 4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965. Bobby noticed the relatively low number on the count(*) of this output so created the same output with the 1952 year as input and the difference in number of employees retiring born in the year 1952 vs those born in the year 1965 is quite astounding, those born in 1952 who are eligible for retirement count is 16,981 vs those born in 1965 is 1,549.  That's more than 15 X's the employees who are eligible for retirement who were born in 1952 vs that of 1965. It is a good thing the are starting a mentorship program, but they may want to try something with those born  BEFORE 1965.
 
