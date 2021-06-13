@@ -39,9 +39,13 @@ Here are some interestng information that may need some further analysis to full
 ![Pewlett_Hackard_Analysis](./ret_titles.png)
 ![Pewlett_Hackard_Analysis](./employee_count.png)
 
-2) The second file results, unique_titles, did help understand the true number of employees who are reaching retirement eligibility.  This count output brought the original 
+2) The second file results, unique_titles, did help understand the true number of employees who are reaching retirement eligibility.  This count output brought the original number to 90,398 which nearly 40,000 less than we were gathering from the unfiltered retirement_titles.  While this is a bit more reassuring, it is still a very large number of employees retiring.
 
 ![Pewlett_Hackard_Analysis](./actual_ret.png)
+
+3) In looking at the unique_titles file, it is easy to note that many of the employees have risen among the ranks. Some have gone up two or more levels of employment. It would be interesting to see how employees in the past were able to be promoted and perhaps something more could be learned about this process.
+
+4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965.  
 
 ## PyBer Analysis Results:
 There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each metric as shown in attached shot of the dataframe created with reesult of analysis:
