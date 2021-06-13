@@ -71,8 +71,11 @@ By looking at difference in the retirement eligible vs those not eligible, there
 ![Pewlett_Hackard_Analysis](./ret_notsilver.png)
 
 ## Resources
-- Data Source: city_data.csv 
-	       ride_data.csv
-- Software: Matplotlib, Scipy, Pandas and Nympy.
+- current_emp.csv
+- emp_info.csv
+- manager_info
+
+- Software: PostgreSQL
+
 # Challenge Overview
 There were definitely parts of the challenge that were not clear which resulted in me wasting time on irrelevent points. Otherwise, it was a fun challenge - like a puzzle you are both creating and solving at the same time.
