@@ -45,7 +45,10 @@ Here are some interestng information that may need some further analysis to full
 
 3) In looking at the unique_titles file, it is easy to note that many of the employees have risen among the ranks. Some have gone up two or more levels of employment. It would be interesting to see how employees in the past were able to be promoted and perhaps something more could be learned about this process.
 
-4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965.  
+4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965. Bobby noticed the relatively low number on the count(*) of this output so created the same output with the 1952 year as input and the difference in number of employees retiring born in the year 1952 vs those born in the year 1965 is  
+
+![Pewlett_Hackard_Analysis](./ret_1965.png)
+![Pewlett_Hackard_Analysis](./ret_1952.png)
 
 ## PyBer Analysis Results:
 There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each metric as shown in attached shot of the dataframe created with reesult of analysis:
