@@ -63,14 +63,12 @@ To answer this, Bobby refactored the SQL he used for the 1965 group and changed 
 
 ![Pewlett_Hackard_Analysis](./ret_silver.png)
 
-2) The above information has made senior management concerned if ther Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+2) The above information has made senior management concerned if there are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-By looking at the following 
+By looking at difference in the retirement eligible vs those not eligible, there does seem to be a chance to take advantage of the large number of employees who have years of experience at PH and train and mentor the younger employees.  Bobby thinks the 1965 age is too low and perhaps a more aggressive mentorship program could be started for those in the immediate range of Jan 1, 1952 through Dec 31, 1955. 
 
-
-
-
-
+![Pewlett_Hackard_Analysis](./ret_silver.png)
+![Pewlett_Hackard_Analysis](./ret_notsilver.png)
 
 ## Resources
 - Data Source: city_data.csv 
