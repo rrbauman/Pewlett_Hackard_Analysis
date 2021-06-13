@@ -45,36 +45,30 @@ Here are some interestng information that may need some further analysis to full
 
 3) In looking at the unique_titles file, it is easy to note that many of the employees have risen among the ranks. Some have gone up two or more levels of employment. It would be interesting to see how employees in the past were able to be promoted and perhaps something more could be learned about this process.
 
-4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965. Bobby noticed the relatively low number on the count(*) of this output so created the same output with the 1952 year as input and the difference in number of employees retiring born in the year 1952 vs those born in the year 1965 is  
+4) The mentorship elibility csv really highlighted the remarkable drop in employess from 1952 to 1965. Bobby noticed the relatively low number on the count(*) of this output so created the same output with the 1952 year as input and the difference in number of employees retiring born in the year 1952 vs those born in the year 1965 is quite astounding, those born in 1952 who are eligible for retirement count is 16,981 vs those born in 1965 is 1,549.  That's more than 15 X's the employees who are eligible for retirement who were born in 1952 vs that of 1965. It is a good thing the are starting a mentorship program, but they may want to try something with those born  BEFORE 1965.
 
 ![Pewlett_Hackard_Analysis](./ret_1965.png)
 ![Pewlett_Hackard_Analysis](./ret_1952.png)
 
-## PyBer Analysis Results:
-There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each metric as shown in attached shot of the dataframe created with reesult of analysis:
-![PyBer_Analysis](./Pyber_summary_df.png)
-### Total Rides by City Type - This metric, shows that as you go from Urban to Suburban to Rural, the number of rides decreases.  This would be expected, partly due to the population of those areas; Less people = less required rides.
-### Total Drivers by City Type  - Similar to rides per city type, this metric as you go from Urban to Suburban to Rural, the number of drivers decreases.  This would be expected, again partly due to the population of those areas.
-### Total Fares by City Type  - Total fares would be impacted by the above two factors, Total Rides per City Type and Total Drivers.
-### Average Fare per Ride by City Type - this metric indicates that as the area of driving increases, so does the fare.  Therefore, you would expect the average fare to be higher as the distances of the rides becomes further.
-### Average Fare per Driver by City Type - same as above metric, Average Fare per Ride, this metric would increase as the distances increase as you go from Urban all the way to Rural.
+## PH Analysis Summary
 
-## PyBer Analysis Summary
-If we look at the metrics in the above output and the below data graph
-![PyBer_Analysis](./Fig7.png)
- 
-Leave a comment
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-![PyBer_Analysis](./TotalFaresbyCityType2.png)
+As noted above in the analysis that has been completed, a closer look should be taken at year by year look at retirement elibility as the numbers of those who may retire in the next few years is quite staggering:
 
-- As expected, and noted above, as we go from a very populate urban area in a smaller space compared to a less populated suburban area, again compared to the area of land, and then finally to the rural area, which would have the greatest amount of land expanse to traverse as a driver to get from point A to point B, the fare per ride and driver would increase.
-- While it may look unevenly 
-- The above is somewhat to be expected, once you see the graph and ouput. But to really get to the bottom of the data, there are a few more data ponts that would need to be investigated:
-1) There needs to be a closer look at the ratio of drivers to type of city and daily total fares per driver per city type.  
-2) There must be drivers who traverse one or two or even all of the types: rural, suburban and urban.  Which group did those folks put themselves in and how much of am impact does it have on there rates?
-3) Length of time per ride; We should take a look at the length of time per ride and the impact on the overall data, especially the Avererage Fare per Ride and Driver.  There may not be enough time for those drivers to have more rides.
-4) Once a closer look at these additional metrics have been completed it can be determined if we need more or less drivers in each city type and perhaps other additonal metrics will be revieled. 
+Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
+Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
+
+1) Bobby knows there is an underlying question: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+To answer this, Bobby refactored the SQL he used for the 1965 group and came up with this number of employees who will be elible for retirement:
+
+
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+
+
+
+
+
 ## Resources
 - Data Source: city_data.csv 
 	       ride_data.csv
