@@ -34,10 +34,14 @@ Because Bobby impressed the PH senior management with the 3 original output file
 
 ## PH Analysis Results:
 Here are some interestng information that may need some further analysis to fully understand:
-1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation.
+1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
 
 ![Pewlett_Hackard_Analysis](./ret_titles.png)
 ![Pewlett_Hackard_Analysis](./employee_count.png)
+
+2) The second file results, unique_titles, did help understand the true number of employees who are reaching retirement eligibility.  This count output brought the original 
+
+![Pewlett_Hackard_Analysis](./actual_ret.png)
 
 ## PyBer Analysis Results:
 There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each metric as shown in attached shot of the dataframe created with reesult of analysis:
