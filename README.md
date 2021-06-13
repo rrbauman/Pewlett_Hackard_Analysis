@@ -59,11 +59,13 @@ Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 
 
 1) Bobby knows there is an underlying question: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-To answer this, Bobby refactored the SQL he used for the 1965 group and changed the range from January 1st of 1952 through December 31st of 1955, and came up with this number of employees who will be elible for retirement:
+To answer this, Bobby refactored the SQL he used for the 1965 group and changed the range from January 1st of 1952 through December 31st of 1955, and came up with this number of employees who will be elible for retirement and the number was 72,458 as shown in below output:
 
 ![Pewlett_Hackard_Analysis](./ret_silver.png)
 
-2) Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+2) The above information has made senior management concerned if ther Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+By looking at the following 
 
 
 
