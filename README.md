@@ -21,7 +21,7 @@ Because Bobby impressed the PH senior management with the 3 original output file
 
 ## PH Analysis Results:
 
-### There was interestng information that was gathered that may need some further analysis to fully understand:
+### There was interesting information that was gathered that may need some further analysis to fully understand:
 
 1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company as retirement approaches or is reached.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
 
