@@ -1,6 +1,6 @@
 # Pewlett_Hackard_Analysis
 
-## Pewlett Hackard Analysis Overview
+## Pewlett Hackard Analysis Overview:
 
 ### PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
 
@@ -39,11 +39,11 @@ Because Bobby impressed the PH senior management with the 3 original output file
 ![Pewlett_Hackard_Analysis](./ret_1965.png)
 ![Pewlett_Hackard_Analysis](./ret_1952.png)
 
-## PH Analysis Summary
+## PH Analysis Summary:
 
 As noted above in the analysis that has been completed, a closer look should be taken at retirement elibility as the numbers of those who may retire in the next few years is quite staggering:
 
-Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
+### Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
 Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
 
 1) Bobby knows there is an underlying question: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
@@ -59,7 +59,7 @@ By looking at difference in the retirement eligible vs those not eligible, there
 ![Pewlett_Hackard_Analysis](./ret_silver.png)
 ![Pewlett_Hackard_Analysis](./ret_notsilver.png)
 
-## Resources
+#### Resources
 - current_emp.csv
 - emp_info.csv
 - manager_info
