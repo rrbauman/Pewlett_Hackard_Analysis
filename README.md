@@ -1,7 +1,8 @@
 # Pewlett_Hackard_Analysis
 
-### Pewlett Hackard Analysis Overview
-PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
+## Pewlett Hackard Analysis Overview
+
+### PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
 
 - current_emp.csv which showed ALL current employees elibible for retirement
 - emp_info.csv which included information about those employees salaries
@@ -19,7 +20,8 @@ Because Bobby impressed the PH senior management with the 3 original output file
 - mentorship_eligibilty.csv
 
 ## PH Analysis Results:
-There was interestng information that was gathered that may need some further analysis to fully understand:
+
+### There was interestng information that was gathered that may need some further analysis to fully understand:
 
 1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company as retirement approaches or is reached.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
 
