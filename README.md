@@ -1,6 +1,6 @@
 # Pewlett_Hackard_Analysis
 
-## Pewlett Hackard Analysis Overview
+### Pewlett Hackard Analysis Overview
 PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
 
 - current_emp.csv which showed ALL current employees elibible for retirement
@@ -9,7 +9,7 @@ PewLett Hackard has been working with Bobby in conducting an over-view of their 
 
 
 Because Bobby impressed the PH senior management with the 3 original output files, they wanted him to do 2 additional analysis:
-1) 3 queries were requested on some more of the general information about ALL the employees who are retiring: 
+1) Three queries were requested on some more of the general information about ALL the employees who are retiring: 
 - A query was written for employees who are born between January 1, 1952 and December 31, 1955: retirement_titles.csv
 - A query was written that contains the employee number, first and last name, and most recent title: unique_titles.csv.
 - A query was written to create a table with the number of titles filled by employees who are retiring: retiring_titles.csv. 
