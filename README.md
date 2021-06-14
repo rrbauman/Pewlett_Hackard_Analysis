@@ -2,7 +2,7 @@
 
 ## Pewlett Hackard Analysis Overview:
 
-### PewLett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
+### Pewlett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
 
 - current_emp.csv which showed ALL current employees elibible for retirement
 - emp_info.csv which included information about those employees salaries
